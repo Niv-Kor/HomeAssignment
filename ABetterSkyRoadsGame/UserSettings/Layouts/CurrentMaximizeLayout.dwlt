@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 329
     height: 635
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -233,7 +233,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5aa1f7ff48aff7ff38eaf7ffe6eff7ffe8eff7ff6ef1f7ffc808f8ffae09f8ff600bf8ffc632f8ff3c33f8ffc848f8ff2e49f8fffc5cf8ff9c60f8ffcc63f8ff3464f8ffa264f8ff0e66f8ffc266f8ffca6af8ffea6df8ff5673f8ffc273f8ff9274f8fff674f8ff6c75f8ff627bf8ff647cf8ffc280f8ff4490f8ff9692f8ffec96f8ff3a99f8ffaa9af8ff3ec5f8ff4ee4f8ff3ae5f8ff7ee6f8ff2e06f9ff8606f9ff1c07f9ff300bf9ff420ef9ff6612f9ffe612f9ff5a13f9ffba13f9ff2e14f9ff8e14f9ff0215f9ffb015f9ffa017f9ff187bf9ff3489f9ff949cf9ff0e9df9ff9266fbff8e6bfbffa86bfbfffc6bfbff7672fbff5c10fcffe642fcff384afcffa0a0fcffa2c9fcffdac9fcff2acafcffd85bfdff1663fdff66a4fdffbca6fdff16c8fdff2802feff5002feff7206fefffc71feff2472feff3872feffeeb3feff1657ffff2cfbffff2efbffff7a4e0000884e0000a04e0000d8170100e4170100f81701001a180100e6180100c2dd010042de0100eadf0100f4df0100d6e1010014e201001ee20100c0010200382f02005a30020048560200805602000c5702003c7d0200b07d0200927e0200
+      m_ExpandedIDs: eefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 674.90063, y: 178.43826, z: 784.07605}
+    m_Target: {x: 1.3096819, y: 3.3209882, z: -83385.21}
     speed: 2
-    m_Value: {x: 674.90063, y: 178.43826, z: 784.07605}
+    m_Value: {x: 1.3096819, y: 3.3209882, z: -83385.21}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -591,13 +591,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10778102, y: -0.013430222, z: 0.001455479, w: -0.99409235}
+    m_Target: {x: -0.08498162, y: -0.2076826, z: 0.018114896, w: -0.97434175}
     speed: 2
-    m_Value: {x: -0.10778001, y: -0.013430095, z: 0.0014554652, w: -0.994083}
+    m_Value: {x: -0.08498061, y: -0.20768012, z: 0.01811468, w: -0.9743301}
   m_Size:
-    m_Target: 1472.1462
+    m_Target: 12.06497
     speed: 2
-    m_Value: 1472.1462
+    m_Value: 12.06497
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -789,22 +789,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Gameplay
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Gameplay
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\Korach\Documents\GitHub\SpringGameHomeAssignment\ABetterSkyRoadsGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 161}
-    m_SelectedIDs: c8340200
-    m_LastClickedID: 144584
-    m_ExpandedIDs: 00000000ba500000e4500000e8500000ea500000ec500000ee500000f0500000209c00002a9c00002e9c0000889d0000a09f0000d0a40000700a01006c34020000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 36520000
+    m_LastClickedID: 21046
+    m_ExpandedIDs: 0000000036520000385200003a5200003c5200003e52000040520000425200004452000046520000485200004a5200004c5200004e52000050520000525200005452000056520000585200005a5200005c5200005e5200006052000062520000645200006652000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -832,7 +832,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba500000e4500000e8500000ea500000ec500000ee500000f0500000209c00002a9c00002e9c0000889d0000a09f0000d0a40000700a01006c34020000ca9a3b
+    m_ExpandedIDs: 0000000036520000385200003a5200003c5200003e52000040520000425200004452000046520000485200004a5200004c5200004e52000050520000525200005452000056520000585200005a5200005c5200005e52000060520000625200006452000066520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -859,8 +859,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000f8a80100
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000f8a801000000000002510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1111,8 +1111,8 @@ MonoBehaviour:
     y: 0
     width: 415
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}

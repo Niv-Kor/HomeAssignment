@@ -10,12 +10,14 @@ namespace BetterSkyRoads.Track
     public class Road : Singleton<Road>
     {
         #region Exposed Editor Parameters
+        [Header("References")]
         [Tooltip("A lane prefab.")]
         [SerializeField] private Lane lanePrototype;
 
         [Tooltip("The object that spawns asteroids on the track.")]
         [SerializeField] private AsteroidSpawner asteroidSpawner;
 
+        [Header("Settings")]
         [Tooltip("The amount of track lanes to create.")]
         [SerializeField] [Range(1, 5)] private int lanesAmount = 1;
         #endregion

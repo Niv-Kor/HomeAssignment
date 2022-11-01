@@ -11,14 +11,15 @@ namespace BetterSkyRoads.Player
     public class PlayerController : MonoBehaviour
     {
         #region Exposed Editor Parameters
+        [Header("Movement")]
         [Tooltip("The spaceship's horizontal speed (left and right).")]
         [SerializeField] private float turnSpeed;
 
-        [Tooltip("The angle at which the spaceship tilts upon turning.")]
-        [SerializeField] [Range(0, 90)] private float tiltAngle;
-
         [Tooltip("The speed at which the spaceship tilts.")]
         [SerializeField] private float tiltSpeed;
+
+        [Tooltip("The angle at which the spaceship tilts upon turning.")]
+        [SerializeField] [Range(0, 90)] private float tiltAngle;
 
         [Tooltip("The force that's applied on the spaceship upon hit.")]
         [SerializeField] private float destructionForce;

@@ -10,6 +10,7 @@ namespace BetterSkyRoads.Flow
     public class LevelFlow : Singleton<LevelFlow>
     {
         #region Exposed Editor Parameters
+        [Header("Game Pace")]
         [Tooltip("The initial speed of the level.")]
         [SerializeField] private float initialSpeed;
 

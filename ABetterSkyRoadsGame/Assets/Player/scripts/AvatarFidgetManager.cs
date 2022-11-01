@@ -7,6 +7,7 @@ namespace BetterSkyRoads.Player
     public class AvatarFidgetManager : LevelPaceListener
     {
         #region Exposed Editor Parameters
+        [Header("Speed")]
         [Tooltip("The minimum available fidget speed.")]
         [SerializeField] private float minFidgetSpeed;
 

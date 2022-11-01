@@ -8,9 +8,11 @@ namespace BetterSkyRoads.UI
     public class Score : MonoBehaviour
     {
         #region Exposed Editor Parameters
+        [Header("References")]
         [Tooltip("The track's rear wall, for asteroids detection.")]
         [SerializeField] private RearTrackWall rearTrackWall;
 
+        [Header("Settings")]
         [Tooltip("The score received after a single asteroid dodge.")]
         [SerializeField] private int scorePerAsteroid;
         #endregion

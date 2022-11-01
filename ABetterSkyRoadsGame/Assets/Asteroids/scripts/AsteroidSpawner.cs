@@ -9,6 +9,7 @@ namespace BetterSkyRoads.Asteroids
     public class AsteroidSpawner : MonoBehaviour
     {
         #region Exposed Editor Parameters
+        [Header("Spawn Interval")]
         [Tooltip("The initial time [s] to wait before spawning the next asteroid.")]
         [SerializeField] private float initialSpawnInterval = 1;
 
@@ -18,6 +19,7 @@ namespace BetterSkyRoads.Asteroids
         [Tooltip("The minimum interval time [s] possible.")]
         [SerializeField] private float minIntervalTime;
 
+        [Header("Settings")]
         [Tooltip("The chance to spawn multiple asteroids at the same time.")]
         [SerializeField] [Range(0, 1)] private float doubleSpawnChance;
         #endregion

@@ -9,8 +9,16 @@ namespace BetterSkyRoads.Asteroids
     public class Asteroid : MonoBehaviour
     {
         #region Exposed Editor Parameters
+        [Header("Speed")]
         [Tooltip("The speed at which the asteroid rotates while moving.")]
         [SerializeField] private float rotationSpeed;
+
+        [Tooltip("A base speed multiplier to apply to an astroid, on top of the level pace multiplier.")]
+        [SerializeField] private float speedMultiplier = 1;
+        #endregion
+
+        #region Constants
+        private static readonly float SCALE_UP_TIME = .5f;
         #endregion
 
         #region Class Members
@@ -41,7 +49,7 @@ namespace BetterSkyRoads.Asteroids
         private IEnumerator Move() {
             while (released) {
                 Vector3 dir = Vector3.forward * -1;
-                transform.Translate(dir * speed);
+                transform.Translate(dir * speed * speedMultiplier);
                 yield return null;
             }
         }
@@ -53,9 +61,9 @@ namespace BetterSkyRoads.Asteroids
             Vector3 startScale = transform.localScale;
             float timer = 0;
 
-            while (timer <= speed) {
+            while (timer <= SCALE_UP_TIME) {
                 timer += Time.deltaTime;
-                transform.localScale = Vector3.Lerp(startScale, initialScale, timer / speed);
+                transform.localScale = Vector3.Lerp(startScale, initialScale, timer / SCALE_UP_TIME);
                 yield return null;
             }
         }

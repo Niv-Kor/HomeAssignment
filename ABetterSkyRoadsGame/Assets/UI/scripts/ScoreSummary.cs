@@ -7,6 +7,7 @@ namespace BetterSkyRoads.UI
     public class ScoreSummary : MonoBehaviour
     {
         #region Exposed Editor Parameters
+        [Header("References")]
         [Tooltip("The label that indicates the latest achieved score.")]
         [SerializeField] private TextMeshProUGUI latestScoreLabel;
 
